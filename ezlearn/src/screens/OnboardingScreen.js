@@ -1,6 +1,9 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Button, StyleSheet, Dimensions, Image } from 'react-native';
 import Swiper from 'react-native-swiper';
+import SvgPic from '../../assets/SvgOne';
+import SvgTwo from '../../assets/SvgTwo';
+import SvgThree from '../../assets/SvgThree';
 
 const { width } = Dimensions.get('window');
 
@@ -8,15 +11,18 @@ const OnboardingScreen = ({ navigation }) => {
   return (
     <Swiper loop={false} dotStyle={styles.dot} activeDotStyle={styles.activeDot}>
       <View style={styles.slide}>
-        <Text style={styles.title}>Welcome to Learning Platform</Text>
+        <Text style={styles.title}>Welcome to Ez Learn</Text>
+        <SvgPic width={300} height={300} />
         <Text style={styles.description}>Learn and test your knowledge with flashcards and assessments.</Text>
       </View>
       <View style={styles.slide}>
         <Text style={styles.title}>Flashcards</Text>
+        <SvgTwo width={300} height={300} />
         <Text style={styles.description}>Create and review flashcards to reinforce your learning.</Text>
       </View>
       <View style={styles.slide}>
         <Text style={styles.title}>Assessments</Text>
+        <SvgThree width={300} height={300} />
         <Text style={styles.description}>Take assessments to test your knowledge and track your progress.</Text>
         <Button title="Get Started" onPress={() => navigation.navigate('Registration')} />
       </View>
@@ -43,6 +49,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Regular',
     textAlign: 'center',
     marginBottom: 40,
+    marginHorizontal: 20,
   },
   dot: {
     backgroundColor: 'rgba(0,0,0,.2)',
