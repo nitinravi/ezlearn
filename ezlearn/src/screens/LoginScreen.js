@@ -1,22 +1,27 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView, Alert, ActivityIndicator } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView, Alert, ActivityIndicator, Image } from 'react-native';
 import { supabase } from '../services/supabaseClient';
 
-const RegistrationScreen = ({ navigation }) => {
+// Import an eye icon for the password toggle (you can use any icon or image)
+import eyeIcon from '../../assets/eye-icon.png'; // Adjust the path as necessary
+import eyeSlashIcon from '../../assets/eye-slash-icon.png'; // Adjust the path as necessary
+
+const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
-  const handleRegister = async () => {
+  const handleLogin = async () => {
     setIsSubmitting(true);
     try {
-      const { user, error } = await supabase.auth.signUp({ email, password });
+      const { user, error } = await supabase.auth.signInWithPassword({ email, password });
 
       if (error) {
         Alert.alert('Error', error.message);
         setIsSubmitting(false);
       } else {
-        Alert.alert('Success', 'Registration successful! Please check your email to confirm your account.', [
+        Alert.alert('Success', 'Login successful!', [
           {
             text: 'OK',
             onPress: () => navigation.navigate('Home'),
@@ -31,8 +36,8 @@ const RegistrationScreen = ({ navigation }) => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>Create an Account</Text>
-      <Text style={styles.subtitle}>Enter your details to register.</Text>
+      <Text style={styles.title}>Login</Text>
+      <Text style={styles.subtitle}>Enter your credentials to login.</Text>
       <View style={styles.form}>
         <TextInput
           style={styles.input}
@@ -43,27 +48,38 @@ const RegistrationScreen = ({ navigation }) => {
           autoCapitalize="none"
           keyboardType="email-address"
         />
-        <TextInput
-          style={styles.input}
-          placeholder="Password"
-          placeholderTextColor="#888"
-          secureTextEntry
-          value={password}
-          onChangeText={setPassword}
-        />
+        <View style={styles.passwordContainer}>
+  <TextInput
+    style={[styles.input, styles.passwordInput]}
+    placeholder="Password"
+    placeholderTextColor="#888"
+    secureTextEntry={!isPasswordVisible}
+    value={password}
+    onChangeText={setPassword}
+  />
+  <TouchableOpacity
+    style={styles.eyeIconWrapper}
+    onPress={() => setIsPasswordVisible(!isPasswordVisible)}
+  >
+    <Image
+      source={isPasswordVisible ? eyeIcon : eyeSlashIcon}
+      style={styles.eyeIcon}
+    />
+  </TouchableOpacity>
+</View>
         <TouchableOpacity
           style={[styles.button, isSubmitting && styles.buttonDisabled]}
-          onPress={handleRegister}
+          onPress={handleLogin}
           disabled={isSubmitting}
         >
-          {isSubmitting ? <ActivityIndicator color="#FFF" /> : <Text style={styles.buttonText}>Register</Text>}
+          {isSubmitting ? <ActivityIndicator color="#FFF" /> : <Text style={styles.buttonText}>Login</Text>}
         </TouchableOpacity>
       </View>
       <View style={styles.footer}>
         <Text style={styles.footerText}>
-          Already have an account?{' '}
-          <Text style={styles.link} onPress={() => navigation.navigate('Login')}>
-            Login
+          Don't have an account?{' '}
+          <Text style={styles.link} onPress={() => navigation.navigate('Registration')}>
+            Register
           </Text>
         </Text>
       </View>
@@ -103,6 +119,40 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     fontFamily: 'Poppins-Regular',
   },
+  passwordContainer: {
+    position: 'relative',
+  },
+  passwordInput: {
+    height: 50,
+    marginBottom: 15,
+    borderRadius: 10,
+    backgroundColor: '#FFF',
+    paddingHorizontal: 15,
+    borderColor: '#DDD',
+    borderWidth: 1,
+    fontFamily: 'Poppins-Regular',
+    paddingRight: 60, // Make space for the eye icon
+  },
+  eyeIconWrapper: {
+    position: 'absolute',
+    right: 0,
+    top: 0,
+    height: '100%',
+    width: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  eyeIcon: {
+    height: 20,
+    width: 20,
+    marginBottom: 10,
+  },
+  eyeIconImage: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'contain',
+    
+  },
   button: {
     backgroundColor: '#0066CC',
     borderRadius: 10,
@@ -134,4 +184,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RegistrationScreen;
+export default LoginScreen;
