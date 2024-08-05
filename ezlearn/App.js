@@ -11,6 +11,9 @@ import RegistrationScreen from './src/screens/RegistrationScreen';
 import LoginScreen from './src/screens/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import UserProfile from './src/components/UserProfile'; // Adjust path if necessary
+import TopicsScreen from './src/screens/TopicsScreen'; // New import
+import FlashcardsScreen from './src/screens/FlashcardsScreen'; // New import
+import AssessmentsScreen from './src/screens/AssessmentsScreen'; // New import
 
 // Define a function to load custom fonts
 const loadFonts = async () => {
@@ -60,7 +63,10 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={session ? "Home" : "Onboarding"} screenOptions={{ headerShown: false }}>
+      <Stack.Navigator
+        initialRouteName={session ? 'Home' : 'Onboarding'}
+        screenOptions={{ headerShown: false }}
+      >
         {!session ? (
           <>
             <Stack.Screen name="Onboarding" component={OnboardingScreen} />
@@ -71,6 +77,9 @@ const App = () => {
           <>
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="UserProfile" component={UserProfile} />
+            <Stack.Screen name="Topics" component={TopicsScreen} />
+            <Stack.Screen name="Flashcards" component={FlashcardsScreen} />
+            <Stack.Screen name="Assessments" component={AssessmentsScreen} />
           </>
         )}
       </Stack.Navigator>

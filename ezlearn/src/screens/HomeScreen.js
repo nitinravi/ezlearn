@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, FlatList, Platform, St
 import { useNavigation } from '@react-navigation/native';
 import SubjectTile from '../components/SubjectTile'; // Import the SubjectTile component
 
-// Function to get status bar height (notch safe)
 const getStatusBarHeight = () => {
   return Platform.OS === 'ios' ? 20 : StatusBar.currentHeight;
 };
@@ -29,8 +28,7 @@ const HomeScreen = () => {
       title={item.title}
       description={item.description}
       onPress={() => {
-        // Handle tile press (e.g., navigate to specific module)
-        console.log(`${item.title} Tile Pressed`);
+        navigation.navigate('Topics', { subject: item.title });
       }}
     />
   );
@@ -38,11 +36,11 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity
-        style={[styles.profileButton, { top: getStatusBarHeight() + 20 }]} // Add top padding
+        style={[styles.profileButton, { top: getStatusBarHeight() + 20 }]}
         onPress={navigateToUserProfile}
       >
         <Image
-          source={require('../../assets/profile.png')} // Adjust path if necessary
+          source={require('../../assets/profile.png')}
           style={styles.profileImage}
         />
       </TouchableOpacity>
@@ -51,7 +49,7 @@ const HomeScreen = () => {
         data={subjects}
         renderItem={renderSubjectTile}
         keyExtractor={item => item.id}
-        numColumns={2} // Display tiles in two columns
+        numColumns={2}
         contentContainerStyle={styles.tilesContainer}
       />
     </View>
@@ -61,10 +59,10 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: getStatusBarHeight(), // Ensure padding for the status bar
-    backgroundColor: '#f0f4f8', // Light background color
+    paddingTop: getStatusBarHeight(),
+    backgroundColor: '#f0f4f8',
     alignItems: 'center',
-    paddingHorizontal: 10, // Add padding to container
+    paddingHorizontal: 10,
   },
   profileButton: {
     position: 'absolute',
@@ -80,10 +78,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontFamily: 'Poppins-Bold',
     marginBottom: 20,
-    marginTop: getStatusBarHeight(), // Adjust margin to bring down the text
-    textAlign: 'left', // Align text to the left
-    width: '100%', // Full width for left alignment
-    paddingHorizontal: 20, // Add padding to align text within the container
+    marginTop: getStatusBarHeight(),
+    textAlign: 'left',
+    width: '100%',
+    paddingHorizontal: 20,
   },
   tilesContainer: {
     flexGrow: 1,
