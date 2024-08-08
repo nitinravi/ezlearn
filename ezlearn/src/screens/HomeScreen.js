@@ -19,7 +19,7 @@ const HomeScreen = () => {
     { id: '2', title: 'OOPS', description: 'Understand Object-Oriented Programming concepts.' },
     { id: '3', title: 'CCNA', description: 'Get started with Cisco Certified Network Associate.' },
     { id: '4', title: 'React Native', description: 'Build mobile apps using React Native framework.' },
-    { id: '5', title: 'Node.js', description: 'Develop server-side applications with Node.js.' },
+    { id: '5', title: 'Git', description: 'Learn to use Git and Version Control' },
     { id: '6', title: 'Python', description: 'Learn Python programming language basics.' },
   ];
 

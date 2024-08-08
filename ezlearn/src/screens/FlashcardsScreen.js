@@ -1,23 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Animated, Easing } from 'react-native';
 import { useRoute } from '@react-navigation/native';
+import flashcardsData from '../../assets/flashcards.json'; // Import the flashcards JSON
 
 const FlashcardsScreen = () => {
   const route = useRoute();
   const { subject } = route.params;
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [flashcards, setFlashcards] = useState([]);
   const flipAnim = useState(new Animated.Value(0))[0];
 
-  const flashcards = [
-    { question: 'What is AWS?', answer: 'AWS stands for Amazon Web Services.', color: '#D0E8FF' },
-    { question: 'What is EC2?', answer: 'EC2 is a cloud computing service provided by AWS.', color: '#E8F6E0' },
-    { question: 'What is S3?', answer: 'S3 is a scalable storage service by AWS.', color: '#D0E8FF' },
-    { question: 'What is Lambda?', answer: 'Lambda allows you to run code without provisioning servers.', color: '#E8F6E0' },
-    { question: 'What is CloudFormation?', answer: 'CloudFormation provides a way to model and provision AWS resources using templates.', color: '#D0E8FF' },
-    { question: 'What is IAM?', answer: 'IAM stands for Identity and Access Management, used to manage access to AWS resources.', color: '#E8F6E0' },
-    { question: 'What is VPC?', answer: 'VPC stands for Virtual Private Cloud, a service that provides a logically isolated network for AWS resources.', color: '#D0E8FF' },
-  ];
+  useEffect(() => {
+    setFlashcards(flashcardsData[subject] || []);
+  }, [subject]);
 
   const handleFlip = () => {
     const toValue = isFlipped ? 0 : 1;
@@ -57,32 +53,36 @@ const FlashcardsScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{subject} - Flashcards</Text>
-      <View style={[styles.cardContainer, { backgroundColor: flashcards[currentCardIndex].color }]}>
-        <Animated.View
-          style={[
-            styles.card,
-            {
-              opacity: frontOpacity,
-              transform: [{ rotateY: interpolateRotation }],
-              backgroundColor: flashcards[currentCardIndex].color, // Inherit color
-            },
-          ]}
-        >
-          <Text style={styles.cardText}>{flashcards[currentCardIndex].question}</Text>
-        </Animated.View>
-        <Animated.View
-          style={[
-            styles.cardBack,
-            {
-              opacity: backOpacity,
-              transform: [{ rotateY: interpolateRotation }],
-              backgroundColor: flashcards[currentCardIndex].color, // Inherit color
-            },
-          ]}
-        >
-          <Text style={styles.cardText}>{flashcards[currentCardIndex].answer}</Text>
-        </Animated.View>
-      </View>
+      {flashcards.length > 0 ? (
+        <View style={[styles.cardContainer, { backgroundColor: flashcards[currentCardIndex].color }]}>
+          <Animated.View
+            style={[
+              styles.card,
+              {
+                opacity: frontOpacity,
+                transform: [{ rotateY: interpolateRotation }],
+                backgroundColor: flashcards[currentCardIndex].color, // Inherit color
+              },
+            ]}
+          >
+            <Text style={styles.cardText}>{flashcards[currentCardIndex].question}</Text>
+          </Animated.View>
+          <Animated.View
+            style={[
+              styles.cardBack,
+              {
+                opacity: backOpacity,
+                transform: [{ rotateY: interpolateRotation }],
+                backgroundColor: flashcards[currentCardIndex].color, // Inherit color
+              },
+            ]}
+          >
+            <Text style={styles.cardText}>{flashcards[currentCardIndex].answer}</Text>
+          </Animated.View>
+        </View>
+      ) : (
+        <Text style={styles.noCardsText}>No flashcards available for this subject.</Text>
+      )}
       <TouchableOpacity
         style={styles.flipButton}
         onPress={handleFlip}
@@ -140,6 +140,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '100%',
     height: '100%',
+    paddingTop: 50,
     borderWidth: 1,
     borderColor: '#DDD',
   },
