@@ -20,13 +20,7 @@ const UserProfile = ({ navigation }) => {
         const user = session.session.user;
         setUser(user);
 
-        const { data: progressData, error: progressError } = await supabase
-          .from('study_progress')
-          .select('*')
-          .eq('user_id', user.id);
-
-        if (progressError) throw progressError;
-        setProgress(progressData);
+        
       } catch (error) {
         Alert.alert('Error', error.message);
       } finally {
@@ -62,21 +56,9 @@ const UserProfile = ({ navigation }) => {
           <Text style={styles.title}>User Profile</Text>
           <Text style={styles.label}>Email:</Text>
           <Text style={styles.info}>{user.email}</Text>
-          <Text style={styles.label}>ID:</Text>
-          <Text style={styles.info}>{user.id}</Text>
-          <Text style={styles.title}>Study Progress</Text>
-          {progress.length > 0 ? (
-            progress.map((item) => (
-              <View key={item.id} style={styles.progressItem}>
-                <Text style={styles.label}>Module:</Text>
-                <Text style={styles.info}>{item.module_name}</Text>
-                <Text style={styles.label}>Progress:</Text>
-                <Text style={styles.info}>{item.progress}%</Text>
-              </View>
-            ))
-          ) : (
-            <Text style={styles.info}>No progress data available.</Text>
-          )}
+
+          <Text style={{ marginVertical: 30 }}>There's not much to see here. I used an unchangeable goofy ghost User Icon for everyone :p</Text>
+          <Text style={{ paddingTop:10, marginVertical: 30 }}>I hope you enjoyed the app! {"\n"}Created with ♡ by <Text style={{ textDecorationLine: 'line-through' }}>ChatGPT</Text> Nitin Ravi</Text>
           <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
             <Text style={styles.logoutButtonText}>Logout</Text>
           </TouchableOpacity>
@@ -117,13 +99,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Regular',
     color: '#FF0000',
   },
-  progressItem: {
-    marginTop: 20,
-    backgroundColor: '#FFF',
-    padding: 15,
-    borderRadius: 10,
-    width: '100%',
-  },
+
   logoutButton: {
     backgroundColor: '#FF0000',
     borderRadius: 10,

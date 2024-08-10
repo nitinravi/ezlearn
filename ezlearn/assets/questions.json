@@ -1,0 +1,1401 @@
+{
+   "AWS CCP": [
+
+    {
+      "question": "Which AWS service is primarily used for scalable cloud storage?",
+      "options": ["Amazon S3", "Amazon EC2", "Amazon RDS", "Amazon VPC"],
+      "correctAnswer": "Amazon S3"
+    },
+    {
+      "question": "What is a core benefit of using AWS cloud services?",
+      "options": ["Scalability", "Increased hardware costs", "Complexity in management", "Fixed pricing"],
+      "correctAnswer": "Scalability"
+    },
+    {
+      "question": "What does the term 'serverless' imply in AWS?",
+      "options": ["You don't manage the server infrastructure", "You must provision servers manually", "Servers are required but managed by AWS", "Server hardware is provided by AWS"],
+      "correctAnswer": "You don't manage the server infrastructure"
+    },
+    {
+      "question": "Which AWS service helps you launch a virtual server?",
+      "options": ["Amazon EC2", "Amazon RDS", "Amazon S3", "Amazon VPC"],
+      "correctAnswer": "Amazon EC2"
+    },
+
+    {
+      "question": "Which AWS service would you use to store files for a website?",
+      "options": ["Amazon S3", "Amazon RDS", "Amazon DynamoDB", "Amazon Lambda"],
+      "correctAnswer": "Amazon S3"
+    },
+    {
+      "question": "What is AWS CloudFormation used for?",
+      "options": ["Creating and managing AWS resources using templates", "Monitoring AWS resources", "Managing AWS identities", "Scaling AWS instances"],
+      "correctAnswer": "Creating and managing AWS resources using templates"
+    },
+    {
+      "question": "How does AWS ensure high availability for its services?",
+      "options": ["By using multiple data centers", "By providing only one region", "By offering a single availability zone", "By using only on-premises servers"],
+      "correctAnswer": "By using multiple data centers"
+    },
+
+    {
+      "question": "How does AWS Lambda handle scaling?",
+      "options": ["Automatically scales based on the number of requests", "Requires manual configuration for scaling", "Uses a fixed number of instances", "Scales based on a user-defined schedule"],
+      "correctAnswer": "Automatically scales based on the number of requests"
+    },
+    {
+      "question": "Which AWS service provides managed infrastructure for containerized applications?",
+      "options": ["Amazon ECS", "Amazon EC2", "Amazon RDS", "Amazon S3"],
+      "correctAnswer": "Amazon ECS"
+    },
+    
+
+    {
+      "question": "What does AWS IAM stand for?",
+      "options": ["Identity and Access Management", "Internet and Application Management", "Instance and Account Management", "Infrastructure and Access Management"],
+      "correctAnswer": "Identity and Access Management"
+    },
+    {
+      "question": "Which AWS service allows you to control who can access your AWS resources?",
+      "options": ["AWS IAM", "AWS Shield", "AWS WAF", "AWS Inspector"],
+      "correctAnswer": "AWS IAM"
+    },
+    {
+      "question": "What is the purpose of AWS CloudTrail?",
+      "options": ["To log API calls made within your AWS account", "To monitor real-time metrics", "To manage security policies", "To encrypt data in transit"],
+      "correctAnswer": "To log API calls made within your AWS account"
+    },
+    {
+      "question": "Which AWS service can help you ensure compliance with security standards?",
+      "options": ["AWS Config", "AWS CloudWatch", "AWS Trusted Advisor", "AWS WAF"],
+      "correctAnswer": "AWS Config"
+    },
+    {
+      "question": "What is AWS Shield designed to protect against?",
+      "options": ["DDoS attacks", "Data breaches", "Application errors", "Networking issues"],
+      "correctAnswer": "DDoS attacks"
+    },
+    {
+      "question": "What feature does AWS Key Management Service (KMS) provide?",
+      "options": ["Managed encryption keys", "Firewall protection", "Network monitoring", "Load balancing"],
+      "correctAnswer": "Managed encryption keys"
+    },
+    {
+      "question": "How does AWS GuardDuty help with security?",
+      "options": ["Provides intelligent threat detection", "Manages encryption keys", "Logs API calls", "Controls access permissions"],
+      "correctAnswer": "Provides intelligent threat detection"
+    },
+    {
+      "question": "What is the function of AWS Secrets Manager?",
+      "options": ["Managing and rotating secrets", "Monitoring application performance", "Scaling infrastructure", "Managing access permissions"],
+      "correctAnswer": "Managing and rotating secrets"
+    },
+    
+
+    {
+      "question": "What is Amazon RDS primarily used for?",
+      "options": ["Managed relational databases", "Object storage", "Compute instances", "Networking"],
+      "correctAnswer": "Managed relational databases"
+    },
+    {
+      "question": "Which AWS service provides a managed NoSQL database?",
+      "options": ["Amazon DynamoDB", "Amazon RDS", "Amazon Redshift", "Amazon S3"],
+      "correctAnswer": "Amazon DynamoDB"
+    },
+    {
+      "question": "What does AWS Elastic Beanstalk simplify?",
+      "options": ["Application deployment", "Database management", "Networking configuration", "Data storage"],
+      "correctAnswer": "Application deployment"
+    },
+    {
+      "question": "Which AWS service allows you to run containerized applications without managing the underlying infrastructure?",
+      "options": ["AWS Fargate", "Amazon EC2", "Amazon RDS", "Amazon EKS"],
+      "correctAnswer": "AWS Fargate"
+    },
+    {
+      "question": "What is Amazon CloudWatch used for?",
+      "options": ["Monitoring AWS resources and applications", "Creating VPCs", "Scaling databases", "Managing IAM policies"],
+      "correctAnswer": "Monitoring AWS resources and applications"
+    },
+    {
+      "question": "Which AWS service provides a fully managed data warehouse solution?",
+      "options": ["Amazon Redshift", "Amazon RDS", "Amazon DynamoDB", "Amazon Aurora"],
+      "correctAnswer": "Amazon Redshift"
+    },
+
+    {
+      "question": "What is AWS Snowball used for?",
+      "options": ["Data transfer at scale", "Managing compute instances", "Network configuration", "Database optimization"],
+      "correctAnswer": "Data transfer at scale"
+    },
+    {
+      "question": "What is the main purpose of AWS Glue?",
+      "options": ["Data integration", "Data storage", "Compute management", "Networking"],
+      "correctAnswer": "Data integration"
+    },
+    
+
+    {
+      "question": "What does AWS Cost Explorer help you with?",
+      "options": ["Analyzing AWS spending", "Managing security policies", "Provisioning compute instances", "Creating VPCs"],
+      "correctAnswer": "Analyzing AWS spending"
+    },
+    {
+      "question": "Which AWS support plan provides 24/7 access to Cloud Support Engineers?",
+      "options": ["AWS Business Support", "AWS Basic Support", "AWS Developer Support", "AWS Enterprise Support"],
+      "correctAnswer": "AWS Enterprise Support"
+    },
+    {
+      "question": "What is AWS Free Tier?",
+      "options": ["A promotional offer to try AWS services for free", "A permanent free service plan", "A discount on AWS services", "A trial period with limited features"],
+      "correctAnswer": "A promotional offer to try AWS services for free"
+    },
+    {
+      "question": "What is AWS Trusted Advisor used for?",
+      "options": ["Providing best practices and cost optimization recommendations", "Managing security incidents", "Monitoring network traffic", "Scaling AWS instances"],
+      "correctAnswer": "Providing best practices and cost optimization recommendations"
+    },
+    {
+      "question": "Which service would you use to forecast future costs and usage?",
+      "options": ["AWS Cost Explorer", "AWS Budgets", "AWS CloudTrail", "AWS Shield"],
+      "correctAnswer": "AWS Budgets"
+    },
+    {
+      "question": "What is the purpose of the AWS Cost and Usage Report?",
+      "options": ["To provide detailed billing information", "To manage security policies", "To monitor application performance", "To configure network settings"],
+      "correctAnswer": "To provide detailed billing information"
+    }
+  ],
+   "OOPS": [
+    // Easy Questions
+    {
+      "question": "What does OOP stand for?",
+      "options": ["Object-Oriented Programming", "Object-Oriented Procedure", "Object-Oriented Process", "Object-Oriented Protocol"],
+      "correctAnswer": "Object-Oriented Programming"
+    },
+    {
+      "question": "Which of the following is NOT a core principle of OOP?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
+      "correctAnswer": "Compilation"
+    },
+    {
+      "question": "What is encapsulation in OOP?",
+      "options": ["Hiding implementation details", "Creating new classes", "Changing the type of object", "Combining multiple classes"],
+      "correctAnswer": "Hiding implementation details"
+    },
+    {
+      "question": "What is an object in OOP?",
+      "options": ["An instance of a class", "A function in a class", "A template for creating classes", "A variable in a class"],
+      "correctAnswer": "An instance of a class"
+    },
+    // Medium Questions
+    {
+      "question": "Which keyword is used to inherit a class in most OOP languages?",
+      "options": ["extends", "inherits", "derives", "includes"],
+      "correctAnswer": "extends"
+    },
+    {
+      "question": "What is polymorphism in OOP?",
+      "options": ["The ability to process objects differently based on their data type or class", "The ability to create multiple instances of a class", "The ability to inherit from multiple classes", "The ability to hide class details"],
+      "correctAnswer": "The ability to process objects differently based on their data type or class"
+    },
+    {
+      "question": "What is an abstract class in OOP?",
+      "options": ["A class that cannot be instantiated directly", "A class that contains no methods", "A class that is used only for data storage", "A class that has only static methods"],
+      "correctAnswer": "A class that cannot be instantiated directly"
+    },
+    {
+      "question": "What is method overriding?",
+      "options": ["Providing a new implementation for an inherited method", "Creating a new method in the same class", "Changing the visibility of a method", "Removing a method from a class"],
+      "correctAnswer": "Providing a new implementation for an inherited method"
+    },
+    {
+      "question": "Which access modifier makes a class member accessible only within the same class?",
+      "options": ["private", "protected", "public", "default"],
+      "correctAnswer": "private"
+    },
+    // Hard Questions
+    {
+      "question": "What is the purpose of the 'super' keyword in OOP languages?",
+      "options": ["To refer to the superclass methods and constructors", "To create an instance of the class", "To delete an object", "To define a static method"],
+      "correctAnswer": "To refer to the superclass methods and constructors"
+    },
+    {
+      "question": "What is a design pattern in OOP?",
+      "options": ["A reusable solution to a common problem in software design", "A method of creating classes", "A way to define class attributes", "A specific programming language feature"],
+      "correctAnswer": "A reusable solution to a common problem in software design"
+    },
+    {
+      "question": "Which design pattern ensures a class has only one instance?",
+      "options": ["Singleton", "Factory", "Prototype", "Observer"],
+      "correctAnswer": "Singleton"
+    },
+    {
+      "question": "In which scenario would you use an interface in OOP?",
+      "options": ["When you want to define a contract that other classes must follow", "When you want to create a concrete class", "When you want to inherit from multiple classes", "When you need to store data only"],
+      "correctAnswer": "When you want to define a contract that other classes must follow"
+    },
+    {
+      "question": "What is multiple inheritance?",
+      "options": ["When a class inherits from more than one class", "When a class inherits from a superclass", "When a class implements multiple interfaces", "When a class has multiple constructors"],
+      "correctAnswer": "When a class inherits from more than one class"
+    },
+    {
+      "question": "What is a 'mixin' in OOP?",
+      "options": ["A class or interface that provides methods for other classes to use", "A type of design pattern", "A specific data structure", "An object with multiple behaviors"],
+      "correctAnswer": "A class or interface that provides methods for other classes to use"
+    }
+  ],
+  "CCNA": [
+    // Domain 1: Network Fundamentals
+    // Easy Questions
+    {
+      "question": "What is the primary purpose of a router?",
+      "options": ["To route data between different networks", "To store data on a hard drive", "To manage user accounts", "To serve web pages"],
+      "correctAnswer": "To route data between different networks"
+    },
+    {
+      "question": "Which device operates at Layer 2 of the OSI model?",
+      "options": ["Switch", "Router", "Firewall", "Hub"],
+      "correctAnswer": "Switch"
+    },
+    {
+      "question": "What is the default subnet mask for a Class C IP address?",
+      "options": ["255.255.255.0", "255.255.0.0", "255.0.0.0", "0.0.0.0"],
+      "correctAnswer": "255.255.255.0"
+    },
+    {
+      "question": "What is the purpose of the ARP protocol?",
+      "options": ["To map IP addresses to MAC addresses", "To map MAC addresses to IP addresses", "To provide encryption for data", "To manage network traffic"],
+      "correctAnswer": "To map IP addresses to MAC addresses"
+    },
+    {
+      "question": "What type of cable is used to connect a router to a switch?",
+      "options": ["Straight-through Ethernet cable", "Crossover Ethernet cable", "Serial cable", "Fiber optic cable"],
+      "correctAnswer": "Straight-through Ethernet cable"
+    },
+    // Medium Questions
+    {
+      "question": "Which of the following IP addresses is reserved for loopback testing?",
+      "options": ["127.0.0.1", "192.168.0.1", "10.0.0.1", "172.16.0.1"],
+      "correctAnswer": "127.0.0.1"
+    },
+    {
+      "question": "What is the function of the Spanning Tree Protocol (STP)?",
+      "options": ["To prevent network loops", "To encrypt data packets", "To assign IP addresses", "To manage routing tables"],
+      "correctAnswer": "To prevent network loops"
+    },
+    {
+      "question": "What is the maximum number of hosts you can have in a subnet with a /24 prefix?",
+      "options": ["254", "256", "512", "1024"],
+      "correctAnswer": "254"
+    },
+    {
+      "question": "Which protocol is used for remote management of network devices?",
+      "options": ["SSH", "HTTP", "FTP", "ICMP"],
+      "correctAnswer": "SSH"
+    },
+    {
+      "question": "What does the DHCP protocol do?",
+      "options": ["Automatically assigns IP addresses to devices", "Encrypts data between devices", "Manages routing tables", "Secures network traffic"],
+      "correctAnswer": "Automatically assigns IP addresses to devices"
+    },
+    // Hard Questions
+    {
+      "question": "What is the purpose of Network Address Translation (NAT)?",
+      "options": ["To allow multiple devices on a local network to share a single public IP address", "To encrypt data on the network", "To manage routing between different networks", "To monitor network traffic"],
+      "correctAnswer": "To allow multiple devices on a local network to share a single public IP address"
+    },
+    {
+      "question": "Which command would you use to display the routing table on a Cisco router?",
+      "options": ["show ip route", "display route", "show route", "show ip address"],
+      "correctAnswer": "show ip route"
+    },
+    {
+      "question": "What is the purpose of VLANs in a network?",
+      "options": ["To segment network traffic and improve performance", "To provide encryption for data packets", "To manage IP address allocation", "To create backup copies of data"],
+      "correctAnswer": "To segment network traffic and improve performance"
+    },
+    {
+      "question": "What does the command 'ping' test?",
+      "options": ["Connectivity between two devices", "The speed of the network connection", "The security of the network", "The amount of data transfer"],
+      "correctAnswer": "Connectivity between two devices"
+    },
+    {
+      "question": "What is the primary function of a firewall?",
+      "options": ["To monitor and control incoming and outgoing network traffic", "To route data between different networks", "To assign IP addresses to devices", "To encrypt data packets"],
+      "correctAnswer": "To monitor and control incoming and outgoing network traffic"
+    },
+    {
+      "question": "Which of the following protocols is used for secure data transmission over a network?",
+      "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
+      "correctAnswer": "HTTPS"
+    },
+    {
+      "question": "What is the primary function of OSPF in a network?",
+      "options": ["To manage routing within a network", "To encrypt network traffic", "To assign IP addresses", "To monitor network performance"],
+      "correctAnswer": "To manage routing within a network"
+    },
+    {
+      "question": "Which layer of the OSI model is responsible for end-to-end communication and error recovery?",
+      "options": ["Transport layer", "Network layer", "Data link layer", "Physical layer"],
+      "correctAnswer": "Transport layer"
+    },
+    {
+      "question": "What is the role of a switch in a network?",
+      "options": ["To forward data packets based on MAC addresses", "To assign IP addresses", "To manage routing tables", "To create network backups"],
+      "correctAnswer": "To forward data packets based on MAC addresses"
+    },
+    {
+      "question": "Which protocol is used to retrieve emails from a server?",
+      "options": ["IMAP", "SMTP", "HTTP", "FTP"],
+      "correctAnswer": "IMAP"
+    }
+  ],
+   "React Native": [
+    // Basics
+    {
+      "question": "What is React Native primarily used for?",
+      "options": ["Building native mobile applications using JavaScript", "Creating web applications", "Designing graphics and animations", "Developing server-side applications"],
+      "correctAnswer": "Building native mobile applications using JavaScript"
+    },
+    {
+      "question": "Which command initializes a new React Native project?",
+      "options": ["npx react-native init ProjectName", "npm create react-native ProjectName", "yarn create react-native ProjectName", "npx create-react-app ProjectName"],
+      "correctAnswer": "npx react-native init ProjectName"
+    },
+    {
+      "question": "What is the purpose of the `App.js` file in a React Native project?",
+      "options": ["It serves as the main entry point for the application", "It contains configuration settings", "It manages routing", "It handles state management"],
+      "correctAnswer": "It serves as the main entry point for the application"
+    },
+    // Components
+    {
+      "question": "How do you import a component in React Native?",
+      "options": ["import ComponentName from './ComponentName';", "require('./ComponentName');", "include ComponentName from './ComponentName';", "use ComponentName from './ComponentName';"],
+      "correctAnswer": "import ComponentName from './ComponentName';"
+    },
+    {
+      "question": "What is the purpose of the `View` component in React Native?",
+      "options": ["To create a container for other components", "To handle user input", "To display images", "To style text"],
+      "correctAnswer": "To create a container for other components"
+    },
+    {
+      "question": "Which component is used to display text in React Native?",
+      "options": ["Text", "Paragraph", "Label", "Heading"],
+      "correctAnswer": "Text"
+    },
+    {
+      "question": "How can you handle user input in React Native?",
+      "options": ["Using the `TextInput` component", "Using the `Button` component", "Using the `View` component", "Using the `Image` component"],
+      "correctAnswer": "Using the `TextInput` component"
+    },
+    // Styling
+    {
+      "question": "How do you apply styles to a component in React Native?",
+      "options": ["Using the `style` prop", "By including a CSS file", "Using inline styles", "By applying a className"],
+      "correctAnswer": "Using the `style` prop"
+    },
+    {
+      "question": "What is the purpose of the `StyleSheet` object in React Native?",
+      "options": ["To create a set of styles for components", "To manage component state", "To handle navigation", "To import libraries"],
+      "correctAnswer": "To create a set of styles for components"
+    },
+    {
+      "question": "How can you center a component horizontally in React Native?",
+      "options": ["By using `alignItems: 'center'` in the container style", "By setting `margin: auto`", "By using `justifyContent: 'center'`", "By setting `textAlign: 'center'`"],
+      "correctAnswer": "By using `alignItems: 'center'` in the container style"
+    },
+    // Navigation
+    {
+      "question": "Which library is commonly used for navigation in React Native?",
+      "options": ["React Navigation", "React Router", "React Nav", "React Link"],
+      "correctAnswer": "React Navigation"
+    },
+    {
+      "question": "How do you install React Navigation in a React Native project?",
+      "options": ["npm install @react-navigation/native", "npm install react-navigation", "yarn add react-navigation", "npm install react-router-native"],
+      "correctAnswer": "npm install @react-navigation/native"
+    },
+    {
+      "question": "What is the role of a `Stack.Navigator` in React Navigation?",
+      "options": ["To manage a stack of screens for navigation", "To handle routing between web pages", "To manage state across components", "To style components"],
+      "correctAnswer": "To manage a stack of screens for navigation"
+    },
+    // State Management
+    {
+      "question": "Which hook is used to manage state in a functional component?",
+      "options": ["useState", "useEffect", "useReducer", "useContext"],
+      "correctAnswer": "useState"
+    },
+    {
+      "question": "How can you update the state using the `useState` hook?",
+      "options": ["By calling the setter function returned by `useState`", "By directly modifying the state variable", "By calling `setState` method", "By using `useEffect`"],
+      "correctAnswer": "By calling the setter function returned by `useState`"
+    },
+    {
+      "question": "What is the purpose of the `useEffect` hook?",
+      "options": ["To perform side effects in functional components", "To handle component lifecycle methods", "To manage state changes", "To style components"],
+      "correctAnswer": "To perform side effects in functional components"
+    },
+    // API Calls
+    {
+      "question": "Which function is commonly used to make HTTP requests in React Native?",
+      "options": ["fetch", "axios", "http", "request"],
+      "correctAnswer": "fetch"
+    },
+    {
+      "question": "How can you handle asynchronous operations with the `fetch` function?",
+      "options": ["By using `async` and `await`", "By using `.then()` and `.catch()`", "By using `Promise.all()`", "By using `setTimeout()`"],
+      "correctAnswer": "By using `async` and `await`"
+    },
+    {
+      "question": "What is the purpose of the `useEffect` hook when dealing with API calls?",
+      "options": ["To perform data fetching and handle side effects", "To manage state updates", "To handle user interactions", "To style components"],
+      "correctAnswer": "To perform data fetching and handle side effects"
+    },
+    // Performance
+    {
+      "question": "What is the purpose of `React.memo`?",
+      "options": ["To optimize performance by memoizing component output", "To manage component state", "To handle navigation", "To fetch data from an API"],
+      "correctAnswer": "To optimize performance by memoizing component output"
+    },
+    {
+      "question": "How can you optimize the performance of a React Native app?",
+      "options": ["By using FlatList for rendering large lists", "By avoiding the use of hooks", "By using class components exclusively", "By minimizing the use of state"],
+      "correctAnswer": "By using FlatList for rendering large lists"
+    },
+    // Debugging
+    {
+      "question": "Which tool can be used to debug React Native applications?",
+      "options": ["React Native Debugger", "Xcode", "Android Studio", "Visual Studio Code"],
+      "correctAnswer": "React Native Debugger"
+    },
+    {
+      "question": "How can you enable debugging in a React Native app?",
+      "options": ["By shaking the device or pressing `Cmd+D`/`Cmd+M` for emulator", "By restarting the app", "By installing additional plugins", "By using the `console.log` function only"],
+      "correctAnswer": "By shaking the device or pressing `Cmd+D`/`Cmd+M` for emulator"
+    },
+    // Native Modules
+    {
+      "question": "What is a native module in React Native?",
+      "options": ["A way to integrate native code (Java/Swift/Objective-C) with React Native", "A component that displays native UI elements", "A library for handling native UI animations", "A package for managing navigation"],
+      "correctAnswer": "A way to integrate native code (Java/Swift/Objective-C) with React Native"
+    },
+    {
+      "question": "How can you access native modules in React Native?",
+      "options": ["By using `NativeModules` from `react-native`", "By importing modules directly", "By using `ReactNativeModules`", "By calling `require` function"],
+      "correctAnswer": "By using `NativeModules` from `react-native`"
+    },
+    // Deployment
+    {
+      "question": "Which command is used to build a release APK for Android in React Native?",
+      "options": ["npx react-native run-android --variant=release", "npm run build-android", "npx react-native build-android", "yarn android --release"],
+      "correctAnswer": "npx react-native run-android --variant=release"
+    },
+    {
+      "question": "What is required to publish an app to the Apple App Store?",
+      "options": ["An Apple Developer account and provisioning profile", "A Google Developer account", "A Facebook Developer account", "A Microsoft Developer account"],
+      "correctAnswer": "An Apple Developer account and provisioning profile"
+    },
+    {
+      "question": "Which file is used to configure the build settings for an iOS app in React Native?",
+      "options": ["Info.plist", "AppDelegate.m", "index.js", "MainActivity.java"],
+      "correctAnswer": "Info.plist"
+    },
+    // Testing
+    {
+      "question": "Which testing library is commonly used for unit testing React Native components?",
+      "options": ["Jest", "Mocha", "Chai", "Karma"],
+      "correctAnswer": "Jest"
+    },
+    {
+      "question": "How can you test React Native components with Jest?",
+      "options": ["By writing test cases using `describe` and `it` blocks", "By using manual testing only", "By integrating with Cypress", "By using BrowserStack"],
+      "correctAnswer": "By writing test cases using `describe` and `it` blocks"
+    },
+    // Miscellaneous
+    {
+      "question": "What is the purpose of `Expo` in React Native development?",
+      "options": ["To provide a set of tools and services for building React Native apps", "To manage navigation", "To handle state management", "To configure native modules"],
+      "correctAnswer": "To provide a set of tools and services for building React Native apps"
+    },
+    {
+      "question": "Which command is used to start an Expo project?",
+      "options": ["npx expo start", "npm start expo", "yarn expo start", "npx create-expo-app"],
+      "correctAnswer": "npx expo start"
+    },
+    {
+      "question": "What is the main advantage of using Expo for React Native development?",
+      "options": ["It simplifies the development and testing process by providing a managed workflow", "It improves performance by providing direct access to native modules", "It reduces the need for code sharing between platforms", "It provides better support for custom native modules"],
+      "correctAnswer": "It simplifies the development and testing process by providing a managed workflow"
+    }
+  ],
+    "Git": [
+    // Basics
+    {
+      "question": "What is Git primarily used for?",
+      "options": ["Version control for tracking changes in source code", "Managing project dependencies", "Creating virtual environments", "Designing user interfaces"],
+      "correctAnswer": "Version control for tracking changes in source code"
+    },
+    {
+      "question": "Which command initializes a new Git repository?",
+      "options": ["git init", "git start", "git create", "git new"],
+      "correctAnswer": "git init"
+    },
+    {
+      "question": "What does the `git clone` command do?",
+      "options": ["Creates a copy of an existing repository", "Commits changes to the repository", "Creates a new branch", "Deletes a repository"],
+      "correctAnswer": "Creates a copy of an existing repository"
+    },
+    {
+      "question": "How can you check the status of your working directory in Git?",
+      "options": ["git status", "git info", "git check", "git list"],
+      "correctAnswer": "git status"
+    },
+    // Commits
+    {
+      "question": "What is the purpose of the `git commit` command?",
+      "options": ["To save changes to the local repository", "To push changes to a remote repository", "To merge branches", "To discard changes"],
+      "correctAnswer": "To save changes to the local repository"
+    },
+    {
+      "question": "How can you include a message with your commit?",
+      "options": ["Using the `-m` flag followed by the message", "By editing the commit message file", "Using the `-a` flag", "By using `git push`"],
+      "correctAnswer": "Using the `-m` flag followed by the message"
+    },
+    {
+      "question": "Which command is used to view the commit history in Git?",
+      "options": ["git log", "git history", "git view", "git commits"],
+      "correctAnswer": "git log"
+    },
+    // Branching and Merging
+    {
+      "question": "How do you create a new branch in Git?",
+      "options": ["git branch branch-name", "git create branch branch-name", "git new branch branch-name", "git checkout -b branch-name"],
+      "correctAnswer": "git branch branch-name"
+    },
+    {
+      "question": "How can you switch to an existing branch?",
+      "options": ["git checkout branch-name", "git switch branch-name", "git change branch branch-name", "git use branch branch-name"],
+      "correctAnswer": "git checkout branch-name"
+    },
+    {
+      "question": "What is the purpose of the `git merge` command?",
+      "options": ["To combine changes from different branches", "To delete a branch", "To create a new branch", "To revert changes"],
+      "correctAnswer": "To combine changes from different branches"
+    },
+    {
+      "question": "How do you resolve conflicts during a merge?",
+      "options": ["By manually editing the conflicting files and committing the changes", "By using `git resolve`", "By discarding the changes", "By aborting the merge"],
+      "correctAnswer": "By manually editing the conflicting files and committing the changes"
+    },
+    // Remote Repositories
+    {
+      "question": "Which command adds a remote repository?",
+      "options": ["git remote add origin URL", "git add remote URL", "git remote set URL", "git push origin URL"],
+      "correctAnswer": "git remote add origin URL"
+    },
+    {
+      "question": "How can you push your local changes to a remote repository?",
+      "options": ["git push", "git upload", "git send", "git sync"],
+      "correctAnswer": "git push"
+    },
+    {
+      "question": "Which command is used to fetch changes from a remote repository without merging them?",
+      "options": ["git fetch", "git pull", "git update", "git receive"],
+      "correctAnswer": "git fetch"
+    },
+    {
+      "question": "How can you pull changes from a remote repository and merge them into your local branch?",
+      "options": ["git pull", "git fetch", "git update", "git push"],
+      "correctAnswer": "git pull"
+    },
+    // Staging and Unstaging
+    {
+      "question": "What does the `git add` command do?",
+      "options": ["Stages changes for the next commit", "Commits changes to the repository", "Unstages changes", "Shows the status of the repository"],
+      "correctAnswer": "Stages changes for the next commit"
+    },
+    {
+      "question": "How can you unstage a file that was added by mistake?",
+      "options": ["git reset HEAD file", "git undo file", "git remove file", "git delete file"],
+      "correctAnswer": "git reset HEAD file"
+    },
+    {
+      "question": "What does the `git rm` command do?",
+      "options": ["Removes files from the working directory and stages the removal for commit", "Deletes files from the repository permanently", "Renames files", "Reverts changes to files"],
+      "correctAnswer": "Removes files from the working directory and stages the removal for commit"
+    },
+    // Rewriting History
+    {
+      "question": "How can you view the changes made in your working directory since the last commit?",
+      "options": ["git diff", "git changes", "git status", "git log"],
+      "correctAnswer": "git diff"
+    },
+    {
+      "question": "What is the purpose of the `git revert` command?",
+      "options": ["To create a new commit that undoes changes from a previous commit", "To permanently delete commits", "To change the commit message", "To modify the commit history"],
+      "correctAnswer": "To create a new commit that undoes changes from a previous commit"
+    },
+    {
+      "question": "Which command is used to reset your repository to a specific commit, discarding changes made after it?",
+      "options": ["git reset --hard commit-hash", "git checkout commit-hash", "git revert commit-hash", "git delete commit-hash"],
+      "correctAnswer": "git reset --hard commit-hash"
+    },
+    {
+      "question": "What does the `git rebase` command do?",
+      "options": ["Reapplies commits on top of another base commit", "Combines multiple commits into one", "Reverts commits to a previous state", "Deletes commits from the history"],
+      "correctAnswer": "Reapplies commits on top of another base commit"
+    },
+    // Tags
+    {
+      "question": "How can you create a new tag in Git?",
+      "options": ["git tag tag-name", "git create tag tag-name", "git new tag tag-name", "git commit -m 'tag-name'"],
+      "correctAnswer": "git tag tag-name"
+    },
+    {
+      "question": "How do you push tags to a remote repository?",
+      "options": ["git push origin tag-name", "git push --tags", "git upload tag-name", "git push tag-name"],
+      "correctAnswer": "git push --tags"
+    },
+    // Miscellaneous
+    {
+      "question": "What is the purpose of the `.gitignore` file?",
+      "options": ["To specify files and directories that Git should ignore", "To list files to be committed", "To track changes to files", "To configure repository settings"],
+      "correctAnswer": "To specify files and directories that Git should ignore"
+    },
+    {
+      "question": "How can you check the current branch you are on?",
+      "options": ["git branch", "git status", "git current", "git show branch"],
+      "correctAnswer": "git branch"
+    },
+    {
+      "question": "What does the `git stash` command do?",
+      "options": ["Temporarily saves changes without committing them", "Creates a backup of the repository", "Deletes untracked files", "Merges changes from different branches"],
+      "correctAnswer": "Temporarily saves changes without committing them"
+    },
+    {
+      "question": "How can you apply stashed changes back to your working directory?",
+      "options": ["git stash apply", "git stash pop", "git stash restore", "git stash reapply"],
+      "correctAnswer": "git stash apply"
+    }
+  ],
+    "Python":[
+        // Basics
+        {
+          "question": "What is Python primarily used for?",
+          "options": ["Programming language for various applications", "Database management", "Web design", "Graphic design"],
+          "correctAnswer": "Programming language for various applications"
+        },
+        {
+          "question": "Which symbol is used to indicate a comment in Python?",
+          "options": ["#", "//", "/*", "/*/"],
+          "correctAnswer": "#"
+        },
+        {
+          "question": "How do you create a list in Python?",
+          "options": ["list = []", "list = {}", "list = ()", "list = ''"],
+          "correctAnswer": "list = []"
+        },
+        // Data Types
+        {
+          "question": "What is the type of the variable `x = 5`?",
+          "options": ["int", "float", "str", "list"],
+          "correctAnswer": "int"
+        },
+        {
+          "question": "How do you declare a floating-point number in Python?",
+          "options": ["float = 5.0", "float = 5", "float = '5.0'", "float = (5)"],
+          "correctAnswer": "float = 5.0"
+        },
+        {
+          "question": "Which method is used to convert a string to an integer in Python?",
+          "options": ["int()", "str()", "float()", "convert()"],
+          "correctAnswer": "int()"
+        },
+        // Functions
+        {
+          "question": "How do you define a function in Python?",
+          "options": ["def function_name():", "function function_name():", "define function_name():", "function_name() = function:"],
+          "correctAnswer": "def function_name():"
+        },
+        {
+          "question": "What is the purpose of the `return` statement in a function?",
+          "options": ["To exit a function and return a value", "To print a message", "To define the function", "To call another function"],
+          "correctAnswer": "To exit a function and return a value"
+        },
+        {
+          "question": "How do you handle exceptions in Python?",
+          "options": ["Using try and except blocks", "Using if and else statements", "Using function calls", "Using loops"],
+          "correctAnswer": "Using try and except blocks"
+        },
+        // Loops and Conditionals
+        {
+          "question": "Which keyword is used to start a loop in Python?",
+          "options": ["for", "loop", "repeat", "while"],
+          "correctAnswer": "for"
+        },
+        {
+          "question": "How do you check if a condition is true in an if statement?",
+          "options": ["if condition:", "check condition:", "when condition:", "if condition then:"],
+          "correctAnswer": "if condition:"
+        },
+        {
+          "question": "What will `print(3 ** 2)` output?",
+          "options": ["9", "6", "8", "Error"],
+          "correctAnswer": "9"
+        },
+        // Strings
+        {
+          "question": "How do you concatenate two strings in Python?",
+          "options": ["Using + operator", "Using * operator", "Using & operator", "Using concat() method"],
+          "correctAnswer": "Using + operator"
+        },
+        {
+          "question": "What does `string.upper()` do?",
+          "options": ["Converts all characters to uppercase", "Converts all characters to lowercase", "Removes whitespace", "Splits the string"],
+          "correctAnswer": "Converts all characters to uppercase"
+        },
+        {
+          "question": "How do you get a substring from a string?",
+          "options": ["Using slicing", "Using split()", "Using substring()", "Using find()"],
+          "correctAnswer": "Using slicing"
+        },
+        // Lists and Dictionaries
+        {
+          "question": "How do you access the first element of a list `my_list`?",
+          "options": ["my_list[0]", "my_list[1]", "my_list.first()", "my_list.get(0)"],
+          "correctAnswer": "my_list[0]"
+        },
+        {
+          "question": "How do you add a new key-value pair to a dictionary?",
+          "options": ["dict[key] = value", "dict.add(key, value)", "dict.insert(key, value)", "dict.append(key, value)"],
+          "correctAnswer": "dict[key] = value"
+        },
+        {
+          "question": "What method is used to remove an item from a list by its value?",
+          "options": ["remove()", "discard()", "pop()", "delete()"],
+          "correctAnswer": "remove()"
+        },
+        // File Operations
+        {
+          "question": "How do you open a file for reading in Python?",
+          "options": ["open('filename', 'r')", "open('filename', 'write')", "open('filename', 'append')", "open('filename', 'read')"],
+          "correctAnswer": "open('filename', 'r')"
+        },
+        {
+          "question": "How do you write data to a file in Python?",
+          "options": ["Using write() method", "Using append() method", "Using save() method", "Using store() method"],
+          "correctAnswer": "Using write() method"
+        },
+        {
+          "question": "How do you close a file after performing operations?",
+          "options": ["Using close() method", "Using end() method", "Using terminate() method", "Using finish() method"],
+          "correctAnswer": "Using close() method"
+        },
+        // Miscellaneous
+        {
+          "question": "What is list comprehension in Python?",
+          "options": ["A concise way to create lists", "A way to filter lists", "A method to sort lists", "A technique for merging lists"],
+          "correctAnswer": "A concise way to create lists"
+        },
+        {
+          "question": "How can you check if a key exists in a dictionary?",
+          "options": ["Using `in` operator", "Using `exists()` method", "Using `has_key()` method", "Using `find()` method"],
+          "correctAnswer": "Using `in` operator"
+        },
+        {
+          "question": "What does `len()` function return for a list?",
+          "options": ["The number of items in the list", "The sum of the list", "The average of the list", "The last item in the list"],
+          "correctAnswer": "The number of items in the list"
+        },
+        {
+          "question": "How do you import a module in Python?",
+          "options": ["Using import statement", "Using include statement", "Using require statement", "Using load statement"],
+          "correctAnswer": "Using import statement"
+        },
+        {
+          "question": "What is the purpose of the `self` keyword in Python classes?",
+          "options": ["To refer to the instance of the class", "To refer to the class itself", "To access global variables", "To create a new class"],
+          "correctAnswer": "To refer to the instance of the class"
+        },
+        {
+          "question": "How do you define a class in Python?",
+          "options": ["class ClassName:", "define ClassName:", "create ClassName:", "new ClassName:"],
+          "correctAnswer": "class ClassName:"
+        }
+      ],
+    "DSA Interview Prep": [
+        // Arrays and Strings
+        {
+          "question": "Given an array of integers, find the maximum sum of a contiguous subarray (Kadane's Algorithm).",
+          "options": ["O(n) time", "O(n log n) time", "O(n^2) time", "O(n^3) time"],
+          "correctAnswer": "O(n) time"
+        },
+        {
+          "question": "Find the longest palindromic substring in a given string.",
+          "options": ["Dynamic Programming", "Expand Around Center", "KMP Algorithm", "Suffix Array"],
+          "correctAnswer": "Expand Around Center"
+        },
+        {
+          "question": "Given an array of integers, find the pair with the smallest absolute difference.",
+          "options": ["Sort and Compare", "Hash Map", "Two Pointers", "Priority Queue"],
+          "correctAnswer": "Sort and Compare"
+        },
+        // Linked Lists
+        {
+          "question": "Detect a cycle in a linked list using Floyd’s Cycle-Finding Algorithm.",
+          "options": ["O(n) time and O(1) space", "O(n) time and O(n) space", "O(log n) time and O(1) space", "O(n^2) time and O(1) space"],
+          "correctAnswer": "O(n) time and O(1) space"
+        },
+        {
+          "question": "Reverse a linked list in O(n) time.",
+          "options": ["Iterative Method", "Recursive Method", "Using Stack", "Using Queue"],
+          "correctAnswer": "Iterative Method"
+        },
+        {
+          "question": "Merge two sorted linked lists into one sorted linked list.",
+          "options": ["Recursive Approach", "Iterative Approach", "Using Priority Queue", "Using Hash Map"],
+          "correctAnswer": "Iterative Approach"
+        },
+        // Trees and Graphs
+        {
+          "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+          "options": ["Recursive Approach", "Using Hash Map", "Binary Lifting", "Euler Tour Technique"],
+          "correctAnswer": "Recursive Approach"
+        },
+        {
+          "question": "Determine if a given binary tree is a valid binary search tree (BST).",
+          "options": ["In-Order Traversal", "Pre-Order Traversal", "Post-Order Traversal", "Breadth-First Traversal"],
+          "correctAnswer": "In-Order Traversal"
+        },
+        {
+          "question": "Find the shortest path from a source to all other vertices in a weighted graph (Dijkstra’s Algorithm).",
+          "options": ["Dijkstra’s Algorithm", "Bellman-Ford Algorithm", "Floyd-Warshall Algorithm", "A* Search Algorithm"],
+          "correctAnswer": "Dijkstra’s Algorithm"
+        },
+        // Graph Algorithms
+        {
+          "question": "Find the minimum spanning tree of a graph (Kruskal’s Algorithm).",
+          "options": ["Kruskal’s Algorithm", "Prim’s Algorithm", "Borůvka’s Algorithm", "Kahn’s Algorithm"],
+          "correctAnswer": "Kruskal’s Algorithm"
+        },
+        {
+          "question": "Determine if a graph is bipartite using BFS.",
+          "options": ["BFS", "DFS", "Union-Find", "Kruskal’s Algorithm"],
+          "correctAnswer": "BFS"
+        },
+        {
+          "question": "Find strongly connected components in a directed graph (Kosaraju’s Algorithm).",
+          "options": ["Kosaraju’s Algorithm", "Tarjan’s Algorithm", "Kahn’s Algorithm", "Floyd-Warshall Algorithm"],
+          "correctAnswer": "Kosaraju’s Algorithm"
+        },
+        // Dynamic Programming
+        {
+          "question": "Solve the 0/1 knapsack problem using dynamic programming.",
+          "options": ["Dynamic Programming", "Greedy Algorithm", "Backtracking", "Branch and Bound"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        {
+          "question": "Find the longest increasing subsequence in an array.",
+          "options": ["Dynamic Programming", "Binary Search", "Greedy Algorithm", "Brute Force"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        {
+          "question": "Compute the minimum edit distance between two strings (Levenshtein Distance).",
+          "options": ["Dynamic Programming", "Greedy Algorithm", "Divide and Conquer", "Recursion"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        // Backtracking
+        {
+          "question": "Solve the N-Queens problem using backtracking.",
+          "options": ["Backtracking", "Dynamic Programming", "Greedy Algorithm", "Divide and Conquer"],
+          "correctAnswer": "Backtracking"
+        },
+        {
+          "question": "Generate all possible subsets of a set (Power Set).",
+          "options": ["Backtracking", "Bit Manipulation", "Recursive Method", "Iterative Method"],
+          "correctAnswer": "Backtracking"
+        },
+        {
+          "question": "Find all permutations of a string.",
+          "options": ["Backtracking", "Dynamic Programming", "Greedy Algorithm", "Sorting"],
+          "correctAnswer": "Backtracking"
+        },
+        // Advanced Concepts
+        {
+          "question": "Find the median of two sorted arrays in logarithmic time.",
+          "options": ["Binary Search", "Merge and Sort", "Heap", "Quickselect"],
+          "correctAnswer": "Binary Search"
+        },
+        {
+          "question": "Find the k-th largest element in an unsorted array.",
+          "options": ["Heap", "Quickselect", "Sorting", "Priority Queue"],
+          "correctAnswer": "Quickselect"
+        },
+        {
+          "question": "Implement a LRU (Least Recently Used) cache.",
+          "options": ["Hash Map and Doubly Linked List", "Heap and Array", "Stack and Queue", "Linked List"],
+          "correctAnswer": "Hash Map and Doubly Linked List"
+        },
+        {
+          "question": "Calculate the maximum flow in a flow network (Ford-Fulkerson Algorithm).",
+          "options": ["Ford-Fulkerson Algorithm", "Edmonds-Karp Algorithm", "Dinic’s Algorithm", "Kruskal’s Algorithm"],
+          "correctAnswer": "Ford-Fulkerson Algorithm"
+        },
+        {
+          "question": "Solve the Traveling Salesman Problem (TSP) for a given set of cities.",
+          "options": ["Dynamic Programming", "Greedy Algorithm", "Branch and Bound", "Approximation Algorithms"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        {
+          "question": "Find the longest common subsequence of two strings.",
+          "options": ["Dynamic Programming", "Greedy Algorithm", "Backtracking", "Recursive Method"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        {
+          "question": "Solve the problem of counting the number of ways to climb a staircase where you can take 1 or 2 steps at a time.",
+          "options": ["Dynamic Programming", "Recursion", "Greedy Algorithm", "Iteration"],
+          "correctAnswer": "Dynamic Programming"
+        },
+        {
+          "question": "Find the longest substring without repeating characters.",
+          "options": ["Sliding Window", "Dynamic Programming", "Hash Map", "Greedy Algorithm"],
+          "correctAnswer": "Sliding Window"
+        },
+        {
+          "question": "Determine the shortest path between two nodes in a weighted graph (Bellman-Ford Algorithm).",
+          "options": ["Bellman-Ford Algorithm", "Dijkstra’s Algorithm", "A* Search", "Floyd-Warshall Algorithm"],
+          "correctAnswer": "Bellman-Ford Algorithm"
+        },
+        {
+          "question": "Find the number of islands in a 2D matrix of 1s and 0s (connected components).",
+          "options": ["DFS or BFS", "Union-Find", "Dynamic Programming", "Backtracking"],
+          "correctAnswer": "DFS or BFS"
+        }
+      ],
+    "DBMS": [
+        {
+          "question": "Explain the difference between primary key and unique key in SQL.",
+          "options": ["Primary key cannot be null; unique key can be null", "Unique key cannot be null; primary key can be null", "Both primary and unique keys can have duplicate values", "Primary key is used for indexing; unique key is not"],
+          "correctAnswer": "Primary key cannot be null; unique key can be null"
+        },
+        {
+          "question": "What is normalization? Explain the different normal forms.",
+          "options": ["Process of organizing data to reduce redundancy", "Process of indexing data", "Process of encrypting data", "Process of compressing data"],
+          "correctAnswer": "Process of organizing data to reduce redundancy"
+        },
+        {
+          "question": "Describe ACID properties in transactions.",
+          "options": ["Atomicity, Consistency, Isolation, Durability", "Atomicity, Consistency, Integrity, Durability", "Atomicity, Concurrency, Isolation, Durability", "Atomicity, Consistency, Isolation, Data Integrity"],
+          "correctAnswer": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "question": "What is a foreign key and how is it used in relational databases?",
+          "options": ["A key that uniquely identifies a record in another table", "A key that uniquely identifies a record in the same table", "A key that is used to index records", "A key used for data encryption"],
+          "correctAnswer": "A key that uniquely identifies a record in another table"
+        },
+        {
+          "question": "Explain the concept of a database index. What are its advantages and disadvantages?",
+          "options": ["A data structure used to improve query performance", "A method of data encryption", "A type of database backup", "A method of data normalization"],
+          "correctAnswer": "A data structure used to improve query performance"
+        },
+        {
+          "question": "What is a join operation in SQL? Explain the different types of joins.",
+          "options": ["Combining rows from two or more tables", "Filtering data from a single table", "Sorting data within a table", "Grouping data within a table"],
+          "correctAnswer": "Combining rows from two or more tables"
+        },
+        {
+          "question": "What is a stored procedure? How does it differ from a function?",
+          "options": ["A precompiled SQL statement stored in the database", "A method for data backup", "A way to encrypt data", "A type of database index"],
+          "correctAnswer": "A precompiled SQL statement stored in the database"
+        },
+        {
+          "question": "Explain the concept of data warehousing and its benefits.",
+          "options": ["A system used for reporting and data analysis", "A type of data encryption", "A method of data backup", "A type of database normalization"],
+          "correctAnswer": "A system used for reporting and data analysis"
+        },
+        {
+          "question": "What is denormalization and why is it used?",
+          "options": ["The process of introducing redundancy into a database to improve performance", "The process of removing redundancy to improve normalization", "The process of encrypting data", "The process of indexing data"],
+          "correctAnswer": "The process of introducing redundancy into a database to improve performance"
+        },
+        {
+          "question": "Describe the differences between OLTP and OLAP systems.",
+          "options": ["OLTP is used for transaction processing; OLAP is used for analytical processing", "OLTP is used for data warehousing; OLAP is used for real-time queries", "OLTP is for read operations; OLAP is for write operations", "OLTP is used for large-scale data processing; OLAP is for small-scale data processing"],
+          "correctAnswer": "OLTP is used for transaction processing; OLAP is used for analytical processing"
+        },
+        {
+          "question": "What is a deadlock in a database system? How can it be resolved?",
+          "options": ["A situation where two or more transactions are waiting for each other to release resources", "A situation where a single transaction cannot access resources", "A type of database crash", "A type of data corruption"],
+          "correctAnswer": "A situation where two or more transactions are waiting for each other to release resources"
+        },
+        {
+          "question": "Explain the concept of a view in SQL. How is it different from a table?",
+          "options": ["A virtual table based on the result of a query", "A physical table in the database", "A type of database index", "A data encryption method"],
+          "correctAnswer": "A virtual table based on the result of a query"
+        },
+        {
+          "question": "What is a transaction log and why is it important?",
+          "options": ["A log that records all changes to the database", "A log that records user login activities", "A log that records data backups", "A log that records query performance"],
+          "correctAnswer": "A log that records all changes to the database"
+        },
+        {
+          "question": "How does database replication work and what are its types?",
+          "options": ["The process of copying data from one database to another", "The process of encrypting data", "The process of indexing data", "The process of compressing data"],
+          "correctAnswer": "The process of copying data from one database to another"
+        },
+        {
+          "question": "What are materialized views and how are they different from regular views?",
+          "options": ["A view where the data is physically stored", "A virtual view that is not stored", "A type of database index", "A type of data encryption"],
+          "correctAnswer": "A view where the data is physically stored"
+        },
+        {
+          "question": "What is sharding in a database system? How does it help with scalability?",
+          "options": ["The process of distributing data across multiple database servers", "The process of encrypting data", "The process of indexing data", "The process of compressing data"],
+          "correctAnswer": "The process of distributing data across multiple database servers"
+        },
+        {
+          "question": "Explain the concept of eventual consistency in distributed databases.",
+          "options": ["A consistency model where updates are propagated to all nodes eventually", "A consistency model where updates are immediately visible to all nodes", "A consistency model where updates are visible to some nodes immediately", "A consistency model where updates are never propagated to all nodes"],
+          "correctAnswer": "A consistency model where updates are propagated to all nodes eventually"
+        },
+        {
+          "question": "What are transactions in the context of databases and why are they important?",
+          "options": ["A sequence of operations performed as a single logical unit of work", "A single operation in the database", "A type of database query", "A type of database backup"],
+          "correctAnswer": "A sequence of operations performed as a single logical unit of work"
+        },
+        {
+          "question": "What is the role of a database administrator (DBA) and what are their key responsibilities?",
+          "options": ["Managing and maintaining the database system", "Developing database applications", "Creating database backups", "Designing database schemas"],
+          "correctAnswer": "Managing and maintaining the database system"
+        },
+        {
+          "question": "Explain the concept of indexing and how it improves query performance.",
+          "options": ["A data structure that improves the speed of data retrieval", "A method of data encryption", "A way to compress data", "A type of database backup"],
+          "correctAnswer": "A data structure that improves the speed of data retrieval"
+        },
+        {
+          "question": "What is a clustered index and how does it differ from a non-clustered index?",
+          "options": ["A clustered index determines the physical order of data; a non-clustered index does not", "A non-clustered index determines the physical order of data; a clustered index does not", "Both indexes determine the physical order of data", "Neither index determines the physical order of data"],
+          "correctAnswer": "A clustered index determines the physical order of data; a non-clustered index does not"
+        },
+        {
+          "question": "What is the difference between horizontal and vertical partitioning?",
+          "options": ["Horizontal partitioning divides a table into rows; vertical partitioning divides it into columns", "Horizontal partitioning divides a table into columns; vertical partitioning divides it into rows", "Both partitioning methods divide a table into rows and columns", "Neither partitioning method divides a table"],
+          "correctAnswer": "Horizontal partitioning divides a table into rows; vertical partitioning divides it into columns"
+        },
+        {
+          "question": "What is the role of SQL in database management?",
+          "options": ["A language used for querying and managing databases", "A language used for designing databases", "A language used for encrypting data", "A language used for compressing data"],
+          "correctAnswer": "A language used for querying and managing databases"
+        },
+        {
+          "question": "What is the purpose of a data dictionary in a database system?",
+          "options": ["A repository of metadata about the database", "A repository of data backups", "A repository of user login activities", "A repository of database queries"],
+          "correctAnswer": "A repository of metadata about the database"
+        },
+        {
+          "question": "Explain the concept of indexing and its impact on database performance.",
+          "options": ["Indexes speed up data retrieval operations", "Indexes slow down data retrieval operations", "Indexes improve data compression", "Indexes improve data encryption"],
+          "correctAnswer": "Indexes speed up data retrieval operations"
+        },
+        {
+          "question": "What is the role of the query optimizer in a database system?",
+          "options": ["To determine the most efficient execution plan for a query", "To encrypt data", "To back up data", "To index data"],
+          "correctAnswer": "To determine the most efficient execution plan for a query"
+        }
+      ],
+    "System Design" : [
+        {
+          "question": "Design a URL shortening service like Bitly. What components would you include?",
+          "options": ["Shortener Service, Database, Redirect Service, Analytics", "User Authentication, Payment Gateway, Analytics, Storage", "File Storage, CDN, API Gateway, Load Balancer", "Message Queue, Cache, Web Server, Database"],
+          "correctAnswer": "Shortener Service, Database, Redirect Service, Analytics"
+        },
+        {
+          "question": "How would you design a scalable notification system?",
+          "options": ["Publish-Subscribe Model, Message Queue, Notification Service", "Direct Database Updates, Email Service, Web Server", "Batch Processing, Data Warehouse, API Gateway", "Load Balancer, CDN, Caching Layer, API Service"],
+          "correctAnswer": "Publish-Subscribe Model, Message Queue, Notification Service"
+        },
+        {
+          "question": "Design a high-performance caching layer. What strategies would you use?",
+          "options": ["In-Memory Cache, Eviction Policies, Consistency Models", "Database Sharding, Query Optimization, Load Balancing", "File Compression, Data Deduplication, Batch Processing", "Replication, Partitioning, Indexing"],
+          "correctAnswer": "In-Memory Cache, Eviction Policies, Consistency Models"
+        },
+        {
+          "question": "How would you design a system to handle real-time analytics for a large-scale application?",
+          "options": ["Stream Processing, Real-Time Database, Data Warehouse", "Batch Processing, OLAP Cube, Message Queue", "Data Lake, ETL Pipeline, Data Compression", "File Storage, API Gateway, Distributed Cache"],
+          "correctAnswer": "Stream Processing, Real-Time Database, Data Warehouse"
+        },
+        {
+          "question": "Design a distributed file storage system. What components and considerations are needed?",
+          "options": ["File Chunking, Replication, Metadata Service, Load Balancer", "Single Node Storage, Direct Access, Encryption, Compression", "Centralized Database, Caching, API Service, CDN", "Sharding, Indexing, Backup Service, Queue System"],
+          "correctAnswer": "File Chunking, Replication, Metadata Service, Load Balancer"
+        },
+        {
+          "question": "How would you design an online payment gateway? What are the key components?",
+          "options": ["Payment Processor, Fraud Detection, Security Measures, Transaction Database", "Order Management, Inventory System, User Authentication, Analytics", "File Storage, API Service, Caching Layer, CDN", "Message Queue, Notification Service, Payment API, User Interface"],
+          "correctAnswer": "Payment Processor, Fraud Detection, Security Measures, Transaction Database"
+        },
+        {
+          "question": "Design a messaging platform like Slack. What components are involved?",
+          "options": ["Messaging Service, User Authentication, Real-Time Updates, Storage", "File Storage, CDN, API Gateway, Load Balancer", "Database Sharding, Caching, Batch Processing, Notification Service", "Analytics, Logging, Backup Service, Web Server"],
+          "correctAnswer": "Messaging Service, User Authentication, Real-Time Updates, Storage"
+        },
+        {
+          "question": "How would you design a recommendation system for an e-commerce platform?",
+          "options": ["Recommendation Engine, User Data, Item Data, Analytics", "Order Management, Inventory System, Payment Gateway, Analytics", "User Authentication, Caching, API Service, Database", "Content Delivery Network, Search Index, Message Queue, Backup Service"],
+          "correctAnswer": "Recommendation Engine, User Data, Item Data, Analytics"
+        },
+        {
+          "question": "Design a scalable search engine. What components and strategies would you use?",
+          "options": ["Indexing, Crawling, Search Query Processing, Distributed Storage", "Batch Processing, Data Warehousing, API Gateway, CDN", "User Authentication, Notification Service, Analytics, Caching", "Real-Time Processing, Load Balancer, Replication, File Storage"],
+          "correctAnswer": "Indexing, Crawling, Search Query Processing, Distributed Storage"
+        },
+        {
+          "question": "How would you design a system to handle large-scale video streaming?",
+          "options": ["Content Delivery Network, Video Encoding, Load Balancer, Storage", "File Compression, Batch Processing, User Authentication, API Service", "Database Sharding, Caching, Real-Time Processing, Messaging Queue", "Analytics, Backup Service, Security Measures, Web Server"],
+          "correctAnswer": "Content Delivery Network, Video Encoding, Load Balancer, Storage"
+        },
+        {
+          "question": "Design a system for a high-frequency trading platform. What are the key components?",
+          "options": ["Order Matching Engine, Low-Latency Data Feed, Risk Management, High-Speed Network", "Database Sharding, Data Warehouse, API Gateway, Load Balancer", "Message Queue, Real-Time Analytics, Caching, Backup Service", "File Storage, User Authentication, Notification Service, Analytics"],
+          "correctAnswer": "Order Matching Engine, Low-Latency Data Feed, Risk Management, High-Speed Network"
+        },
+        {
+          "question": "How would you design a distributed caching system? What considerations are important?",
+          "options": ["Consistency Models, Data Replication, Cache Eviction Policies, Load Balancing", "Database Sharding, Indexing, Backup Service, Queue System", "File Compression, Encryption, Analytics, Real-Time Processing", "User Authentication, Notification Service, CDN, API Gateway"],
+          "correctAnswer": "Consistency Models, Data Replication, Cache Eviction Policies, Load Balancing"
+        },
+        {
+          "question": "Design an API gateway for a microservices architecture. What are its functions?",
+          "options": ["Routing, Authentication, Rate Limiting, Logging", "Data Compression, Encryption, File Storage, Backup Service", "Database Sharding, Load Balancing, Analytics, Caching", "Message Queue, Notification Service, User Authentication, Web Server"],
+          "correctAnswer": "Routing, Authentication, Rate Limiting, Logging"
+        },
+        {
+          "question": "How would you design a system to handle high-traffic e-commerce transactions during a flash sale?",
+          "options": ["Load Balancer, Distributed Database, Caching Layer, Scalability Measures", "File Compression, Data Deduplication, API Gateway, CDN", "Batch Processing, Data Warehouse, Analytics, Backup Service", "User Authentication, Notification Service, Web Server, Messaging Queue"],
+          "correctAnswer": "Load Balancer, Distributed Database, Caching Layer, Scalability Measures"
+        },
+        {
+          "question": "Design a system to manage user profiles and preferences in a social media application.",
+          "options": ["User Profile Service, Preferences Storage, Real-Time Updates, Analytics", "File Storage, API Service, Caching Layer, CDN", "Database Sharding, Message Queue, Backup Service, Web Server", "User Authentication, Notification Service, Analytics, Data Compression"],
+          "correctAnswer": "User Profile Service, Preferences Storage, Real-Time Updates, Analytics"
+        },
+        {
+          "question": "How would you design a system for managing large-scale log data from distributed services?",
+          "options": ["Log Aggregation, Storage, Real-Time Processing, Search and Analysis", "File Storage, User Authentication, Backup Service, CDN", "Batch Processing, Data Warehouse, API Gateway, Load Balancer", "Database Sharding, Caching, Message Queue, Encryption"],
+          "correctAnswer": "Log Aggregation, Storage, Real-Time Processing, Search and Analysis"
+        },
+        {
+          "question": "Design a system for managing user-generated content on a photo-sharing platform.",
+          "options": ["Content Management Service, Storage, Metadata Management, CDN", "File Compression, Data Encryption, Backup Service, API Gateway", "Database Sharding, Caching Layer, Message Queue, Web Server", "User Authentication, Analytics, Notification Service, Load Balancer"],
+          "correctAnswer": "Content Management Service, Storage, Metadata Management, CDN"
+        },
+        {
+          "question": "How would you design a system to provide personalized content recommendations in a streaming service?",
+          "options": ["Recommendation Engine, User Data, Content Data, Real-Time Processing", "File Storage, API Service, Caching Layer, Analytics", "Database Sharding, Backup Service, Load Balancer, Web Server", "Message Queue, Notification Service, User Authentication, CDN"],
+          "correctAnswer": "Recommendation Engine, User Data, Content Data, Real-Time Processing"
+        },
+        {
+          "question": "Design a system for managing and scaling online reservations for a large restaurant chain.",
+          "options": ["Reservation Service, Table Management, Real-Time Updates, Analytics", "File Storage, API Gateway, Load Balancer, User Authentication", "Database Sharding, Caching Layer, Message Queue, Backup Service", "Content Delivery Network, Web Server, Data Compression, Notification Service"],
+          "correctAnswer": "Reservation Service, Table Management, Real-Time Updates, Analytics"
+        },
+        {
+          "question": "How would you design a system to handle large-scale user activity tracking and reporting?",
+          "options": ["Activity Tracking Service, Data Storage, Real-Time Analytics, Reporting", "File Storage, API Service, Backup Service, Caching Layer", "Database Sharding, CDN, Message Queue, Web Server", "User Authentication, Notification Service, Load Balancer, Data Compression"],
+          "correctAnswer": "Activity Tracking Service, Data Storage, Real-Time Analytics, Reporting"
+        },
+        {
+          "question": "Design a system to handle large-scale distributed machine learning model training and inference.",
+          "options": ["Distributed Training Framework, Model Storage, Inference Service, Data Pipeline", "File Compression, Backup Service, User Authentication, API Gateway", "Database Sharding, Caching Layer, Message Queue, Analytics", "Load Balancer, Web Server, CDN, Data Encryption"],
+          "correctAnswer": "Distributed Training Framework, Model Storage, Inference Service, Data Pipeline"
+        },
+        {
+          "question": "How would you design a high-availability system for a financial trading application?",
+          "options": ["Redundant Systems, Failover Mechanisms, Load Balancer, Monitoring", "Database Sharding, Backup Service, API Gateway, CDN", "File Storage, Caching Layer, User Authentication, Web Server", "Message Queue, Real-Time Processing, Analytics, Data Compression"],
+          "correctAnswer": "Redundant Systems, Failover Mechanisms, Load Balancer, Monitoring"
+        },
+        {
+          "question": "Design a system for managing and scaling user-generated reviews and ratings for an online marketplace.",
+          "options": ["Review Service, Rating System, Storage, Analytics", "File Storage, API Service, Caching Layer, Web Server", "Database Sharding, Load Balancer, Message Queue, Backup Service", "User Authentication, Notification Service, CDN, Real-Time Processing"],
+          "correctAnswer": "Review Service, Rating System, Storage, Analytics"
+        },
+        {
+          "question": "How would you design a real-time collaboration platform like Google Docs?",
+          "options": ["Real-Time Editing Service, Conflict Resolution, Synchronization, Data Storage", "File Compression, User Authentication, API Gateway, Web Server", "Database Sharding, Caching Layer, Backup Service, Notification Service", "Content Delivery Network, Load Balancer, Data Encryption, Analytics"],
+          "correctAnswer": "Real-Time Editing Service, Conflict Resolution, Synchronization, Data Storage"
+        },
+        {
+          "question": "Design a system for managing and distributing software updates to a large number of devices.",
+          "options": ["Update Distribution Service, Device Management, Version Control, Storage", "File Compression, API Service, User Authentication, Backup Service", "Database Sharding, CDN, Message Queue, Caching Layer", "Web Server, Load Balancer, Data Encryption, Analytics"],
+          "correctAnswer": "Update Distribution Service, Device Management, Version Control, Storage"
+        },
+        {
+          "question": "How would you design a system for a large-scale social networking site with millions of active users?",
+          "options": ["User Management, Real-Time Feed, Scalability Measures, Data Storage", "File Storage, API Service, Backup Service, Load Balancer", "Database Sharding, Caching Layer, Message Queue, Web Server", "Notification Service, Analytics, User Authentication, CDN"],
+          "correctAnswer": "User Management, Real-Time Feed, Scalability Measures, Data Storage"
+        },
+        {
+          "question": "Design a system to provide high-throughput, low-latency API responses for a global audience.",
+          "options": ["Global Load Balancer, Edge Caching, API Gateway, Distributed Databases", "File Compression, Data Encryption, Backup Service, Web Server", "Database Sharding, Caching Layer, Message Queue, Analytics", "User Authentication, CDN, Notification Service, Real-Time Processing"],
+          "correctAnswer": "Global Load Balancer, Edge Caching, API Gateway, Distributed Databases"
+        },
+        {
+          "question": "How would you design a system for managing large-scale financial transactions and ensuring data integrity?",
+          "options": ["Transaction Management Service, Data Integrity Checks, High-Availability Architecture, Logging", "File Storage, Backup Service, Encryption, API Gateway", "Database Sharding, Caching Layer, Real-Time Processing, User Authentication", "Load Balancer, CDN, Data Compression, Notification Service"],
+          "correctAnswer": "Transaction Management Service, Data Integrity Checks, High-Availability Architecture, Logging"
+        }
+      ],
+
+    "DevOps" : [
+        {
+          "question": "What is Infrastructure as Code (IaC) and how does it benefit DevOps?",
+          "options": ["Managing infrastructure through code to automate provisioning and management", "Manual configuration of servers and applications", "Using graphical tools to manage infrastructure", "Writing documentation for infrastructure processes"],
+          "correctAnswer": "Managing infrastructure through code to automate provisioning and management"
+        },
+        {
+          "question": "How does Continuous Integration (CI) differ from Continuous Deployment (CD)?",
+          "options": ["CI focuses on integrating code changes regularly; CD automates deployment to production", "CI is about automated testing; CD is about manual deployments", "CI is for development environments; CD is for staging environments", "CI and CD are the same, just different terms"],
+          "correctAnswer": "CI focuses on integrating code changes regularly; CD automates deployment to production"
+        },
+        {
+          "question": "What are the key benefits of using Docker in a DevOps pipeline?",
+          "options": ["Consistent development environments, simplified deployment, and isolation", "Increased hardware requirements, slower performance, and complexity", "Manual dependency management and inconsistent environments", "None of the above"],
+          "correctAnswer": "Consistent development environments, simplified deployment, and isolation"
+        },
+        {
+          "question": "How do Kubernetes and Docker Swarm compare for container orchestration?",
+          "options": ["Kubernetes provides more features and scalability; Docker Swarm is simpler and easier to set up", "Docker Swarm is more feature-rich; Kubernetes is simpler", "Both are identical in features and scalability", "Kubernetes is used only for development; Docker Swarm is used for production"],
+          "correctAnswer": "Kubernetes provides more features and scalability; Docker Swarm is simpler and easier to set up"
+        },
+        {
+          "question": "What is a blue-green deployment strategy?",
+          "options": ["Deploying two identical environments to reduce downtime during updates", "Deploying code changes to a single environment with immediate release", "Rolling out updates gradually to a subset of users", "Using multiple servers to handle different versions of an application"],
+          "correctAnswer": "Deploying two identical environments to reduce downtime during updates"
+        },
+        {
+          "question": "What role does a load balancer play in a DevOps architecture?",
+          "options": ["Distributes incoming traffic across multiple servers to ensure reliability and scalability", "Encrypts sensitive data", "Monitors server health and provides debugging information", "Manages continuous integration pipelines"],
+          "correctAnswer": "Distributes incoming traffic across multiple servers to ensure reliability and scalability"
+        },
+        {
+          "question": "How does a CI/CD pipeline improve the software development lifecycle?",
+          "options": ["Automates build, test, and deployment processes to increase efficiency and reduce errors", "Replaces manual coding practices with automated coding tools", "Provides a graphical user interface for coding tasks", "Eliminates the need for version control systems"],
+          "correctAnswer": "Automates build, test, and deployment processes to increase efficiency and reduce errors"
+        },
+        {
+          "question": "What are the advantages of using a version control system like Git in DevOps?",
+          "options": ["Tracks changes to code, facilitates collaboration, and manages code versions", "Encrypts code and provides graphical user interfaces for code management", "Automatically deploys code to production environments", "Replaces the need for build automation tools"],
+          "correctAnswer": "Tracks changes to code, facilitates collaboration, and manages code versions"
+        },
+        {
+          "question": "How do monitoring and logging contribute to a successful DevOps implementation?",
+          "options": ["They provide visibility into system performance and issues, aiding in proactive problem resolution", "They automatically fix bugs and issues in the code", "They are used only for security purposes", "They replace the need for automated testing"],
+          "correctAnswer": "They provide visibility into system performance and issues, aiding in proactive problem resolution"
+        },
+        {
+          "question": "What is the purpose of configuration management tools like Ansible, Chef, or Puppet?",
+          "options": ["Automate the setup, configuration, and management of servers and applications", "Manually configure servers and applications", "Monitor server performance and handle logging", "Manage source code and handle version control"],
+          "correctAnswer": "Automate the setup, configuration, and management of servers and applications"
+        },
+        {
+          "question": "What are the key differences between declarative and imperative configuration management?",
+          "options": ["Declarative specifies the desired state; imperative specifies the exact steps", "Imperative specifies the desired state; declarative specifies the exact steps", "Both are identical in functionality", "Declarative is for manual configurations; imperative is for automated configurations"],
+          "correctAnswer": "Declarative specifies the desired state; imperative specifies the exact steps"
+        },
+        {
+          "question": "How can a DevOps team use containers to improve development and deployment processes?",
+          "options": ["Containers provide isolated environments for applications, ensuring consistency across different stages", "Containers are used only for development and not for deployment", "Containers replace the need for version control and CI/CD tools", "Containers are not suitable for production environments"],
+          "correctAnswer": "Containers provide isolated environments for applications, ensuring consistency across different stages"
+        },
+        {
+          "question": "What is the purpose of Infrastructure as Code (IaC) tools like Terraform?",
+          "options": ["Automate infrastructure provisioning and management through code", "Encrypt sensitive data", "Provide a graphical user interface for managing infrastructure", "Monitor server performance"],
+          "correctAnswer": "Automate infrastructure provisioning and management through code"
+        },
+        {
+          "question": "How does a microservices architecture differ from a monolithic architecture?",
+          "options": ["Microservices break down an application into smaller, independent services; monolithic is a single, tightly coupled application", "Monolithic is for small applications; microservices are for large applications", "Microservices are less scalable than monolithic architecture", "Both architectures are identical in functionality"],
+          "correctAnswer": "Microservices break down an application into smaller, independent services; monolithic is a single, tightly coupled application"
+        },
+        {
+          "question": "What are the key principles of a successful DevOps culture?",
+          "options": ["Collaboration, automation, continuous improvement, and monitoring", "Isolation, manual processes, limited communication, and static environments", "Adherence to traditional development methods and tools", "Focus on individual performance and separate teams"],
+          "correctAnswer": "Collaboration, automation, continuous improvement, and monitoring"
+        },
+        {
+          "question": "How do you implement security in a DevOps pipeline?",
+          "options": ["Integrate security practices into every stage of the pipeline, from code development to deployment", "Only perform security checks at the end of the pipeline", "Use security tools exclusively in production environments", "Exclude security considerations from the pipeline to speed up development"],
+          "correctAnswer": "Integrate security practices into every stage of the pipeline, from code development to deployment"
+        },
+        {
+          "question": "What are some common strategies for scaling applications in a DevOps environment?",
+          "options": ["Load balancing, horizontal scaling, and auto-scaling", "Vertical scaling, manual scaling, and single server deployment", "Database optimization, file compression, and static IP addresses", "Static configurations, caching, and hardware upgrades"],
+          "correctAnswer": "Load balancing, horizontal scaling, and auto-scaling"
+        },
+        {
+          "question": "How can you ensure high availability and fault tolerance in a cloud-based application?",
+          "options": ["Use multiple availability zones, redundant components, and failover mechanisms", "Rely on a single availability zone and minimal redundancy", "Use manual failover and backup procedures", "Avoid using cloud services for fault tolerance"],
+          "correctAnswer": "Use multiple availability zones, redundant components, and failover mechanisms"
+        },
+        {
+          "question": "What is the role of container orchestration platforms in a DevOps workflow?",
+          "options": ["Manage and automate the deployment, scaling, and operation of containerized applications", "Handle only application development and not deployment", "Replace the need for version control systems", "Focus exclusively on security aspects"],
+          "correctAnswer": "Manage and automate the deployment, scaling, and operation of containerized applications"
+        },
+        {
+          "question": "How do you approach continuous testing in a DevOps pipeline?",
+          "options": ["Integrate automated tests into the CI/CD pipeline to provide immediate feedback on code changes", "Perform manual testing only before deployment", "Exclude testing from the pipeline to speed up the process", "Use testing only in staging environments"],
+          "correctAnswer": "Integrate automated tests into the CI/CD pipeline to provide immediate feedback on code changes"
+        },
+        {
+          "question": "What is a canary release and how does it benefit the deployment process?",
+          "options": ["Gradually deploy updates to a small subset of users to detect issues before full rollout", "Release updates to all users simultaneously", "Deploy updates only to a single server", "Use canary releases for only development environments"],
+          "correctAnswer": "Gradually deploy updates to a small subset of users to detect issues before full rollout"
+        },
+        {
+          "question": "What is the role of logging and monitoring in maintaining application health?",
+          "options": ["Provide visibility into system performance and issues, enabling proactive management", "Replace the need for automated testing and deployment", "Focus only on security aspects and not performance", "Limit monitoring to production environments only"],
+          "correctAnswer": "Provide visibility into system performance and issues, enabling proactive management"
+        },
+        {
+          "question": "How does version control contribute to the DevOps process?",
+          "options": ["Tracks changes to code, facilitates collaboration, and ensures version consistency", "Manages deployment processes and infrastructure", "Handles security and compliance checks", "Automates build and testing processes"],
+          "correctAnswer": "Tracks changes to code, facilitates collaboration, and ensures version consistency"
+        },
+        {
+          "question": "What are some best practices for managing secrets in a DevOps environment?",
+          "options": ["Use secret management tools, environment variables, and encryption", "Hard-code secrets in configuration files", "Store secrets in plain text within version control", "Share secrets via email or messaging applications"],
+          "correctAnswer": "Use secret management tools, environment variables, and encryption"
+        },
+        {
+          "question": "How do you handle rollbacks in a DevOps pipeline?",
+          "options": ["Implement mechanisms to revert to previous versions in case of issues", "Only deploy new versions and never rollback", "Manually redeploy old versions as needed", "Avoid rollbacks to ensure consistency"],
+          "correctAnswer": "Implement mechanisms to revert to previous versions in case of issues"
+        },
+        {
+          "question": "What is the purpose of a service mesh in microservices architecture?",
+          "options": ["Provides a dedicated infrastructure layer for managing communication, security, and monitoring between microservices", "Handles database management and storage", "Replaces container orchestration tools", "Manages front-end user interfaces and designs"],
+          "correctAnswer": "Provides a dedicated infrastructure layer for managing communication, security, and monitoring between microservices"
+        },
+        {
+          "question": "How do you ensure compliance and security in a DevOps pipeline?",
+          "options": ["Integrate security and compliance checks into the pipeline from the start", "Perform compliance checks only at the end of the pipeline", "Avoid integrating security practices to speed up the pipeline", "Use manual compliance checks exclusively"],
+          "correctAnswer": "Integrate security and compliance checks into the pipeline from the start"
+        },
+        {
+          "question": "What are some common tools for monitoring and logging in a DevOps environment?",
+          "options": ["Prometheus, Grafana, ELK Stack, and Splunk", "Visual Studio Code, Git, Jenkins, and Docker", "AWS Lambda, CloudFormation, Ansible, and Chef", "Slack, Trello, GitHub, and JIRA"],
+          "correctAnswer": "Prometheus, Grafana, ELK Stack, and Splunk"
+        },
+        {
+          "question": "How do you manage dependencies in a microservices architecture?",
+          "options": ["Use service-specific dependency management tools and maintain clear versioning", "Hard-code dependencies within services", "Use a single dependency manager for all services", "Avoid managing dependencies to simplify the architecture"],
+          "correctAnswer": "Use service-specific dependency management tools and maintain clear versioning"
+        }
+      ]
+}
+  

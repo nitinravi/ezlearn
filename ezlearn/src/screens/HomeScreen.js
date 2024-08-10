@@ -21,6 +21,10 @@ const HomeScreen = () => {
     { id: '4', title: 'React Native', description: 'Build mobile apps using React Native framework.' },
     { id: '5', title: 'Git', description: 'Learn to use Git and Version Control' },
     { id: '6', title: 'Python', description: 'Learn Python programming language basics.' },
+    { id : '7', title: 'DSA Interview Prep', description: 'Prepare for Data Structures and Algorithms interviews.' },
+    { id: '8', title: 'DBMS', description: 'Master DBMS concepts most asked in interviews.' },
+    { id: '9', title: 'System Design', description: 'Learn to design scalable systems.' },
+    { id: '10', title: 'DevOps', description: 'Understand the Development and Operations cycle.' },
   ];
 
   const renderSubjectTile = ({ item }) => (
@@ -40,7 +44,7 @@ const HomeScreen = () => {
         onPress={navigateToUserProfile}
       >
         <Image
-          source={require('../../assets/profile.png')}
+          source={require('../../assets/profile.jpg')}
           style={styles.profileImage}
         />
       </TouchableOpacity>
@@ -70,8 +74,8 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   profileImage: {
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
     borderRadius: 20,
   },
   title: {
