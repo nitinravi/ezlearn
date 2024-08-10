@@ -19,7 +19,7 @@ const RegistrationScreen = ({ navigation }) => {
         Alert.alert('Success', 'Registration successful! Please check your email to confirm your account.', [
           {
             text: 'OK',
-            onPress: () => navigation.navigate('Home'),
+            onPress: () => navigation.navigate('Login'),
           },
         ]);
       }
